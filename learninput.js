@@ -7,7 +7,7 @@ function Ronak(){
   let [email,setemail] = useState ('rp1896617@gmail.com');
   const [password,setpassword] = useState('ronak045');
    
-  
+  const [Date,setDate] = useState('20-nov-2003')
   const ronak = useEffect(() => {
     
     setemail('santoki051@gmail.com')
@@ -30,9 +30,12 @@ function Ronak(){
     <h1>hello! goood morning INDIA</h1>
     <h2>Radhe Radhe</h2>
     <img src="https://wallpaperaccess.com/full/7795599.jpg" height={200} width={200}/>
+    <br/><br/>
+    
     <p>Lord Krishna is perhaps the most charismatic avatar of god Vishnu, and he is one of the most popular among Hindu Gods and Goddesses. Not only are his stories fascinating and inspiring, but they are also at times relevant to human lives. #1. Shri Krishna was born as the eighth son of Devaki and Vasudeva in Rohini Nakshatra. </p>
+    <input type="Date" value={Date}/>
     </>
     
   );
 }
-export default Ronak;
+export default Ronak;    
